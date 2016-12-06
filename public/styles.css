@@ -1,0 +1,191 @@
+.hero-unit {
+  margin-top:66px;
+  color: #fff;
+  background-color: #05043A;
+  text-align:center;
+}
+
+.hero-unit h1 {
+    font-size:40px;
+}
+
+.hero-unit img{
+	width:30%;
+}
+
+.hero-unit button{
+	background-color:#05043A;
+}
+
+.hero-unit p{
+	font-size:40px;
+}
+
+.intro-form a{
+	background-color:#05043A;
+}
+
+.navbar-default a {
+	color:#46ED1C;
+}
+
+@media (min-width: 768px) {
+  .hero-unit h1 {
+    font-size: 64px;
+  }
+}
+
+#about h1 {
+  color: #84BD00;
+}
+
+#source {
+    height:40px;
+    padding:10px;
+    margin:10px;
+    width:550px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color:black;
+}
+
+#search-form {
+}
+
+#about h2 {
+  color: #84BD00;
+}
+
+
+.reg-unit {
+  color:white;
+  margin-top:66px;
+  background-color: #6F7073;
+}
+
+.navbar-nav li a {
+    cursor:pointer;
+}
+
+#about {
+    display:none;
+}
+
+#main {
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    display:none;
+    font-size:22px;
+}
+
+#footer {
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#main h2 {
+    font-size:32px;
+}
+
+#info {
+    margin:20px 0;
+    width:100%;
+    text-align:center;
+    height:32px;
+    font-size:24px;
+}
+
+.navbar-header img{
+	border-top-width:0px;
+	width:8%;
+}
+
+/* Sticky footer styles */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 28px;
+  padding-top: 0;
+}
+
+.h1 {
+  text-align:center;
+  margin-bottom: 42px; /* (@padding-base-vertical * 7) */
+}
+
+p {
+  margin-bottom: 18px; /* a little more breathing room between feature tiles in mobile
+view) */
+}
+
+a:not([href]) {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit
+}
+
+a:not([href]):hover {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit
+}
+
+@media screen and (min-width: 992px) {
+  p {
+    margin-bottom: 12px; /* reset to default */
+  }
+}
+
+#go {
+    margin-bottom:20px;
+}
+
+#ttext {
+    margin-top:20px;
+    margin-bottom:30px;
+
+}
+
+
+.padded-button {
+    margin-top:20px;
+}
+
+
+.button-row {
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#fetch-tracks {
+    margin-top:20px;
+}
+
+#fetch-tracks-ready {
+    margin-top:20px;
+}
+
+h1 {
+    text-transform:capitalize;
+    text-align:center;
+    font-size:64px;
+    font-weight:lighter;
+}
+
+#fetching-tracks {
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}

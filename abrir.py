@@ -1,0 +1,3 @@
+import geohits
+
+geohits.auth()
