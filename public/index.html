@@ -544,11 +544,11 @@ function initApp() {
 
 function loginWithSpotify() {
     var client_id = 'c9b0abc1be4c4302b22dbe7d2d74b376';
-    var redirect_uri = 'http://localhost:8888/index.html';
+    var redirect_uri = 'http://www.geohits.netlify.com';
     var scopes = 'playlist-modify-public';
-
+//http://localhost:8888/index.html
     if (document.location.hostname == 'localhost') {
-        redirect_uri = 'http://localhost:8888/index.html';
+        redirect_uri = 'http://www.geohits.netlify.com';
     }
 
     var url = 'https://accounts.spotify.com/authorize?client_id=' + client_id +
