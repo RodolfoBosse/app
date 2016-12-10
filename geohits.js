@@ -13,7 +13,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = 'c9b0abc1be4c4302b22dbe7d2d74b376'; // Your client id
 var client_secret = '7003f26cd5984484a5452a1bae398cdc'; // Your secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'www.geohits.netlify.com'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
